@@ -1,2 +1,2 @@
 # react-document
-react.js api document chinese
+react.js api 中文文档
