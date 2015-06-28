@@ -50,3 +50,7 @@
 . 我们相信组件化是分离视图逻辑和模板关系的正确方式。此外，视图逻辑通常比较复杂，所以一般使用模板引擎去描述当视图层变得比较笨重的时候。
 . 我们找到了一个最好的解决方法去解决生成HTML和组件化树形目录从JavaScript代码中，这样你就可以使用任何编程语言去编写健壮的UI层
 . 为了让这个问题简单化，我们增加了一个非常简单的，可选的类HTML语法的去创建React树形节点
+. JSX使用HTML的语法去构建JavaScript对象。在React里使用纯JavaScript去创建一个链接你会这样写:
+    React.createElement('a', {href: 'https://facebook.github.io/react/'}, 'Hello!')
+而使用JSX语法则变成:
+    <a href="https://facebook.github.io/react/">Hello!</a>
